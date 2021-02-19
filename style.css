@@ -1,0 +1,36 @@
+/* style.css */
+
+html, body {
+  height: 100%;
+  background-color: #000000;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.score-text {
+  color: white;
+  font-size: 50px;
+}
+
+.msg-text {
+  color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
